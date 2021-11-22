@@ -1,0 +1,71 @@
+
+
+.bg-cream {
+  background: rgb(241, 219, 176);
+}
+
+
+.bg-green {
+  background: #75aa12;
+}
+
+.flowHeight{
+  height: 65%;
+}
+.rem1p1 {
+  font-size: 1.1rem;
+}
+
+.rem1p3 {
+  font-size: 1.3rem;
+}
+.img-width{
+  width: 30%;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.hover:hover{
+  transform: translate(0, -5px);
+}
+
+.item:hover{
+  border: 0.2rem solid #0799c5;
+}
+
+#burger.jump{
+  animation: 0.08s cubic-bezier(0.01, 0.8, 0.1, 1) 0s 0.5 jump;
+}
+
+#burger.rotate{
+  animation: rotate 1s linear 2;
+}
+
+
+
+@keyframes rotate {
+  0% {
+    transform:rotateY(0deg);
+  }
+  100%{
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes jump
+{
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+
+@media (min-width: 600px){
+  .flowHeight {
+    height: 80%;
+  }
+  .img-width{
+    width: 50%;
+  }
+}
+
