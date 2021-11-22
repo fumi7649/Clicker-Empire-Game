@@ -11,7 +11,10 @@
 ユーザーのデータをセーブして、そのデータを読み込んだときにデータがユーザーのオブジェクトではなくなっているのに気が付かず、ユーザークラスのメソッドを使えなって困った。
 ユーザーにitemオブジェクトを持たせるようにして解決した。
 関数をどの名前空間で管理するか迷うことが多々あった。
-　
+
+<h2>DEMO</h2>
+<img width="754" alt="clicker game demo" src="https://user-images.githubusercontent.com/80373104/142829612-081e17e6-fada-4e4b-abcc-d15ae656222b.png">
+
 <h2>URL</h2>
  https://fumi7649.github.io/Clicker-Empire-Game/
 
